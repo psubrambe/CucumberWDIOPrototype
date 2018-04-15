@@ -1,0 +1,34 @@
+{
+  "name": "cucumber-js-selenium-webdriver-example",
+  "version": "0.0.1",
+  "description": "A starter for acceptance testing using cucumber-js and webdriver-js.",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "cucumber": "^0.10.2",
+    "cucumber-html-report": "^0.4.4",
+    "cucumber-html-reporter": "^0.3.1",
+    "cucumber-junit": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-cucumber": "0.0.22",
+    "gulp-env": "^0.4.0",
+    "gulp-install": "^0.6.0",
+    "gulp-protractor-cucumber-html-report": "^0.1.2",
+    "gulp-webdriver": "^2.0.2",
+    "jsonfile": "^2.4.0",
+    "sanitize-filename": "^1.6.0",
+    "selenium-cucumber-js": "^1.5.12",
+    "selenium-webdriver": "^2.53.2"
+  },
+  "dependencies": {
+    "jsonfile": "^2.4.0",
+    "pure-uuid": "^1.5.2",
+    "wdio-allure-reporter": "^0.6.0",
+    "wdio-cucumber-framework": "^2.0.1",
+    "webdriverio": "^4.12.0"
+  }
+}
